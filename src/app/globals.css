@@ -8,7 +8,11 @@
   --background-end-rgb: 255, 255, 255;
 }
 
+<<<<<<< HEAD
 @media (prefers-color-scheme: white) {
+=======
+@media (prefers-color-scheme: dark) {
+>>>>>>> d9cf8074d9bb172faaf30f7ce87ac124abf5c85d
   :root {
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
@@ -31,6 +35,7 @@ body {
     text-wrap: balance;
   }
 }
+<<<<<<< HEAD
 
 /* Star rating wrapper */
 .star-rating {
@@ -69,3 +74,5 @@ body {
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background: linear-gradient(to bottom, rgba(105,116,134,0.55), rgba(42,54,76,0.55))
 }
+=======
+>>>>>>> d9cf8074d9bb172faaf30f7ce87ac124abf5c85d
