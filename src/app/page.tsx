@@ -8,6 +8,7 @@ import axios from 'axios';
 import MovieCard from "./MovieCard";
 import MovieForms from "./MovieForms";
 import Image from "next/image";
+import MovieSlide from './MovieSlide';
 
 
 
@@ -37,6 +38,9 @@ export default function Home() {
       <div className="col-md-8">
         <br/>
           <MovieForms />
+<br/>
+<br/>
+<MovieSlide />
 <br/>
           </div>
       </div>
